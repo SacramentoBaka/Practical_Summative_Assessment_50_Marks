@@ -79,8 +79,8 @@ Partial Class Form1
         ' Label3
         ' 
         Label3.AllowDrop = True
+        Label3.Anchor = AnchorStyles.Left Or AnchorStyles.Right
         Label3.AutoEllipsis = True
-        Label3.AutoSize = True
         Label3.BackColor = Color.Transparent
         Label3.Cursor = Cursors.WaitCursor
         Label3.Font = New Font("Century Gothic", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
